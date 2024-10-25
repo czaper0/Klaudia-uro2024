@@ -6,7 +6,10 @@
 
 body {
     font-family: Arial, sans-serif;
-    background: linear-gradient(135deg, #e0eafc, #cfdef3);
+    background-image: url('background.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -14,8 +17,17 @@ body {
     color: #333;
 }
 
+
 h1 {
     font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.wishes {
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.5em;
+    color: #666;
+    padding:40px;
     margin-bottom: 20px;
 }
 
@@ -23,16 +35,17 @@ h1 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
-    max-width: 800px;
+    max-width: 400px;
     width: 100%;
 }
 
 .card {
     position: relative;
     padding: 20px;
+    padding-left: 50px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    color: #fff;
+    color: #272121;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -41,34 +54,18 @@ h1 {
     transition: transform 0.3s;
     background-size: cover;
     background-position: center;
+    
 }
 
 .card:hover {
     transform: scale(1.05);
 }
 
-/* Kolorowe kafelki */
-/* Kolorowe kafelki z obrazami */
-#card1 { 
-    background-color: #ff6b6b;
-    background-image: url('https://images.unsplash.com/photo-1563298723-dcfebaa392e3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDV8fHBhcmt8ZW58MHx8fHwxNjg2NjQ5NTUy&ixlib=rb-4.0.3&q=80&w=400');
-}
-
-#card2 { 
-    background-color: #4ecdc4;
-    background-image: url('https://images.unsplash.com/photo-1524985069026-dd778a71c7b4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDZ8fG1vdmllfGVufDB8fHx8MTY4NjY0OTY1Mg&ixlib=rb-4.0.3&q=80&w=400');
-}
-
-#card3 { 
-    background-color: #ffe66d;
-    background-image: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDN8fGJlYWNoJTIwc2NlbmVyeXxlbnwwfHx8fDE2ODY2NDk3MTg&ixlib=rb-4.0.3&q=80&w=400');
-}
-
-#card4 { 
-    background-color: #1e90ff;
-    background-image: url('https://images.unsplash.com/photo-1556911073-52527ac43738?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDN8fGRpbm5lcnxlbnwwfHx8fDE2ODY2NDk3NTQ&ixlib=rb-4.0.3&q=80&w=400');
-}
-
+/* Kolorowe kafelki z lokalnymi obrazami */
+#card1 { background-image: url('surprise.png'); }
+#card2 { background-image: url('surprise.png'); }
+#card3 { background-image: url('surprise.png'); }
+#card4 { background-image: url('surprise.png'); }
 
 h2 {
     font-size: 1.5em;
