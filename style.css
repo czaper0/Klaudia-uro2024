@@ -25,7 +25,8 @@ h1 {
 
 .wishes {
     font-family: 'Dancing Script', cursive;
-    font-size: 1.5em;
+    font-size: 1.05em;
+    text-align: center;
     color: #666;
     padding:40px;
     margin-bottom: 20px;
@@ -34,7 +35,7 @@ h1 {
 .container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
+    gap: 10px;
     max-width: 400px;
     width: 100%;
 }
