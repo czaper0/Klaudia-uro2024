@@ -48,10 +48,27 @@ h1 {
 }
 
 /* Kolorowe kafelki */
-#card1 { background-color: #ff6b6b; background-image: url('https://source.unsplash.com/200x200/?park'); }
-#card2 { background-color: #4ecdc4; background-image: url('https://source.unsplash.com/200x200/?cinema'); }
-#card3 { background-color: #ffe66d; background-image: url('https://source.unsplash.com/200x200/?beach'); }
-#card4 { background-color: #1e90ff; background-image: url('https://source.unsplash.com/200x200/?dinner'); }
+/* Kolorowe kafelki z obrazami */
+#card1 { 
+    background-color: #ff6b6b;
+    background-image: url('https://images.unsplash.com/photo-1563298723-dcfebaa392e3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDV8fHBhcmt8ZW58MHx8fHwxNjg2NjQ5NTUy&ixlib=rb-4.0.3&q=80&w=400');
+}
+
+#card2 { 
+    background-color: #4ecdc4;
+    background-image: url('https://images.unsplash.com/photo-1524985069026-dd778a71c7b4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDZ8fG1vdmllfGVufDB8fHx8MTY4NjY0OTY1Mg&ixlib=rb-4.0.3&q=80&w=400');
+}
+
+#card3 { 
+    background-color: #ffe66d;
+    background-image: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDN8fGJlYWNoJTIwc2NlbmVyeXxlbnwwfHx8fDE2ODY2NDk3MTg&ixlib=rb-4.0.3&q=80&w=400');
+}
+
+#card4 { 
+    background-color: #1e90ff;
+    background-image: url('https://images.unsplash.com/photo-1556911073-52527ac43738?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDN8fGRpbm5lcnxlbnwwfHx8fDE2ODY2NDk3NTQ&ixlib=rb-4.0.3&q=80&w=400');
+}
+
 
 h2 {
     font-size: 1.5em;
