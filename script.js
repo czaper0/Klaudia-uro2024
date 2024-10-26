@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 const minutes = Math.floor((remainingTime % (1000 * 60 * 60)) / (1000 * 60));
                 const seconds = Math.floor((remainingTime % (1000 * 60)) / 1000);
 
-                element.textContent = `Szczegóły za ${hours}h ${minutes}m ${seconds}s`;
+                element.textContent = `Szczegóły za: ${hours}h ${minutes}m ${seconds}s`;
             } else {
                 element.textContent = "Odblokowano!";
                 element.classList.add("hidden");
